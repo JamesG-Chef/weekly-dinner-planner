@@ -1,6 +1,7 @@
 import "./App.css";
 import Header from "./components/Header";
-import MealCard from "./components/Mealcard";
+import MealCard from "./components/Mealcard"
+import MealAdder from "./components/MealAdder";
 import { useState } from "react";
 
 const mealslist = [
@@ -84,6 +85,7 @@ function App() {
         >
           <strong>Generate</strong>
         </button>
+        <MealAdder />
       </div>
     </div>
   );

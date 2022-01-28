@@ -37,3 +37,32 @@
   color: #F1FAEE;
   background-color: #E63946;
 }
+
+.form {
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  align-items: center;
+  font-family:'Courier New', Courier, monospace;
+  font-weight: bold;
+}
+
+.input {
+  font-family:'Courier New', Courier, monospace;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+
+.button {
+  font-family:'Courier New', Courier, monospace;
+  font-style: bold;
+  font-size:larger;
+  box-shadow: 0px 10px 20px -10px #E63946;
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 15px;
+  color: #F1FAEE;
+  background-color: #E63946;
+}
