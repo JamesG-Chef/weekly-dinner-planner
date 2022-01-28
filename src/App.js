@@ -82,7 +82,7 @@ function App() {
             setMeals(chosenMeals);
           }}
         >
-          generate
+          <strong>Generate</strong>
         </button>
       </div>
     </div>

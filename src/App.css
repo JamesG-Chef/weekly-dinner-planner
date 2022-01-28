@@ -3,28 +3,37 @@
 }
 
 .menu-item {
+  font-family:'Courier New', Courier, monospace;
   font-size: 20px;
   font-weight:900;
-  color: blue;
+  color: #1D3557;
   padding: 20px;
 }
 
 .title {
+  font-family:'Courier New', Courier, monospace;
   font-size: 40px;
-
+  color: #457B9D;
+  margin: 30px;
+  
 }
 
 .menu-container {
   border: solid;
-  border-radius: 10%;
-  background-color: blanchedalmond;
+  border-radius: 35px;
+  background-color: #F1FAEE;
   margin: 20px
 }
 
 .generate-button {
+  font-family:'Courier New', Courier, monospace;
+  font-style: bold;
+  font-size:larger;
+  box-shadow: 0px 10px 20px -10px #E63946;
+  font-weight: bold;
   padding: 10px;
   margin-bottom: 20px;
   border-radius: 15px;
-  color: blueviolet;
-  background-color: whitesmoke;
+  color: #F1FAEE;
+  background-color: #E63946;
 }
